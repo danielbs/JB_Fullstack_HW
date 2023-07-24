@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: coral;
+}
+
+#container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 15% 80% 5%;
+}
+
+header, footer {
+    grid-column: 1 / span 10; 
+}
+
+main {
+    /* grid styles */
+    grid-column: 3 / span 8;
+    border: 1px solid black;
+}
+
+#main-index {
+    /* flex styles */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    grid-column: 1 / span 2;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    border: 1px solid black;
+}
+
+nav a {
+    padding-top: 50px;
+}
+
+#main-index p {
+    padding: 20px;
+}
+
+#main-index iframe {
+    margin: auto;
+    padding: auto;
+}
+
+#main-animals section{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50% 50%;
+}
+
+#main-animals img {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+#main-animals p {
+    text-align: left;    
+}
+
+#main-contact form{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 15% 70% 15%;
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}

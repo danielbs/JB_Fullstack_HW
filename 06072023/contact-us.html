@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body dir="rtl" bgcolor="#00ffff">
+    <h1>חנות החיות המגניבה בארץ</h1>
+    <hr>
+    <nav>
+        <a href="index.html">דף הבית</a> | <a href="animals.html">חיות</a> | <a href="contact-us.html">צור קשר</a>
+    </nav>
+    <br>
+    <h2>צור קשר:</h2>
+    <table>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>שם פרטי:</td>
+                <td><input type="text" name="fname" placeholder="שם פרטי"></td>
+            </tr>
+            <tr>
+                <td>שם משפחה:</td>
+                <td><input type="text" name="lname" placeholder="שם משפחה"></td>
+            </tr>
+            <tr>
+                <td>מין:</td>
+                <td>
+                    <input type="radio" name="sex" id="male" value="male">
+                    <label for="male">זכר</label>
+                    <br>
+                    <input type="radio" name="sex" id="female" value="female">
+                    <label for="female">נקבה</label>
+                </td>
+            </tr>
+            <tr>
+                <td>עיר:</td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="none">בחר עיר</option>
+                        <option value="jerusalem">ירושלים</option>
+                        <option value="tel-aviv">תל אביב</option>
+                        <option value="haifa">חיפה</option>
+                        <option value="beer-sheva">באר שבע</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>הודעה:</td>
+                <td><textarea name="msg" id="msg" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="שלח">
+                    <input type="reset" value="נקה">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <p>&copy כל הזכויות שמורות</p>
+</body>
+</html>
