@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js" type="module"></script>
+</head>
+
+<body>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+        <button id="all">All</button>
+    </div>
+    <div id="aggregation-container">
+        <span class="aggregation-label"># of rows:</span>
+        <span id="number-of-rows" class="aggregation-data"></span>
+        <span class="aggregation-label"> | total $:</span>
+        <span id="total-price" class="aggregation-data"></span>
+        <span class="aggregation-label"> | average rating:</span>
+        <span id="average-rating" class="aggregation-data"></span>
+        <span class="aggregation-label"> | smartphones average price:</span>
+        <span id="smartphones-average-price" class="aggregation-data"></span>
+    </div>
+    <div>
+        <table id="country-population-table">
+            <thead>
+                <th>Country Name</th>
+                <th>Number of Citizens</th>
+            </thead>
+            <tbody id="country-population-table-body">
+
+            </tbody>
+        </table>
+        <table id="region-countries-table">
+            <thead>
+                <th>Region</th>
+                <th>Number of Countries</th>
+            </thead>
+            <tbody id="region-countries-table-body">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

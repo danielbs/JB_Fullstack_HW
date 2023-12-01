@@ -1,0 +1,107 @@
+/* Existing Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#header h1 {
+    height: 100px;
+    line-height: 100px; /* Center text vertically */
+    background: #5D93E1; 
+    color: white; /* White text */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 10;
+}
+
+/* Form Styling */
+#search-countries-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-countries-form input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-countries-form button {
+    padding: 10px 15px;
+    border: none;
+    background: #5D93E1;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-countries-form button:hover {
+    background-color: #507CBE;
+}
+
+/* Table Styling */
+.table {
+    width: auto; /* Set table width to fit its contents */
+    max-width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table thead {
+    background-color: #5D93E1;
+    color: white;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Statistics Section */
+#row {
+    margin-bottom: 20px;
+}
+
+/* Aggregation Section Styling */
+#aggregation {
+    background-color: #fff; 
+    padding: 20px; 
+    width: auto; 
+    max-width: 600px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+#aggregation label {
+    font-weight: bold; 
+    margin-right: 10px; 
+}
+
+#aggregation br {
+    margin-bottom: 10px; /* Spacing between lines */
+}
+

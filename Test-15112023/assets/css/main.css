@@ -1,0 +1,75 @@
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/* Change the navbar brand text color */
+.navbar-brand {
+    color: #fff !important; /* White color */
+}
+
+/* Change the navbar brand text color on hover */
+.navbar-brand:hover {
+    color: #f8f9fa !important; /* Slightly lighter white */
+}
+
+/* Change the navbar background color */
+.navbar {
+    background-color: #0051ff; /* Bootstrap primary color */
+}
+
+/* Change the navbar item text color */
+.nav-link {
+    color: #fff !important; /* White color */
+}
+
+/* Change the navbar item text color on hover */
+.nav-link:hover {
+    color: #f8f9fa !important; /* Slightly lighter white */
+}
+
+#submit {
+    background-color: #0051ff;
+    color: #fff;
+    padding: 10 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  #id_category {
+    padding: 10px;
+  }

@@ -1,0 +1,20 @@
+.red-button {
+    background-color: red;
+}
+
+.green-button {
+    background-color: green;
+}
+
+table,
+td {
+    border: 1px dashed;
+}
+
+.aggregation-label {
+    color: blue;
+}
+
+.aggregation-data {
+    color: red;
+}
